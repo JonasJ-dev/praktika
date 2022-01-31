@@ -1,0 +1,62 @@
+body{
+    max-width:1550px ;
+}
+.keiciamaKLFooter ul{
+   list-style: none; 
+   text-align: center;
+}
+.keiciamaKLFooter ul li{
+    display: inline;
+    margin-left: 50px;
+    
+}
+
+main{
+    background-image: url(../img/pav1.jpg);
+    background-size: cover;
+    height: 70vh;
+    
+    /* height: 500px; */
+
+   
+	
+}
+main .variantasPirmas{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    /* display: flex; */
+    color: white;
+  
+   
+  
+
+}
+.variantasPirmas h1{
+    text-align: center;
+}
+.variantasPirmas ul{
+    list-style: none; 
+
+}
+
+.variantasPirmas .correct-answer{
+    color: #a7f79c;
+}
+.variantasPirmas p{
+    font-size: 20px;
+}
+.variantasPirmas .incorrect-answer{
+    color: #fda3a3;
+}
+.question, .correct-answer, .incorrect-answer  {
+    display: none;
+}
+.variantasPirmas button{
+    background-color: #72edb4 ;
+    border-radius: 30%;
+    font-size:25px;
+}
+
+.question.selected, .correct-answer.selected, .incorrect-answer.selected {
+    display: inherit;
+}
